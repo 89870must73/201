@@ -276,7 +276,6 @@ cat key.pem cert.pem >> /etc/stunnel/stunnel.pem
 sed -i 's/ENABLED=0/ENABLED=1/g' /etc/default/stunnel4
 /etc/init.d/stunnel4 restart
 
-
 # install fail2ban
 apt-get -y install fail2ban
 
@@ -393,6 +392,9 @@ echo "unset HISTFILE" >> /etc/profile
 apt -y autoremove
 apt -y autoclean
 apt -y clean
+
+wget https://raw.githubusercontent.com/89870must73/xd/main/ohp && bash ohp
+
 
 # info
 clear
