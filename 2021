@@ -261,7 +261,7 @@ accept = 990
 connect = 127.0.0.1:109
 
 [openvpn]
-accept = 443
+accept = 587
 connect = 127.0.0.1:1103
 
 END
